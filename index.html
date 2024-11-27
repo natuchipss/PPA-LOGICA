@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Generador de QR con Descarga</title>
+	<link rel="stylesheet" href="estilos.css">
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+	<script defer src="app.js"></script>
+</head>
+<body>
+	<div class="contenedor">
+		<h1 style="text-align: center;">Generador de QR</h1>
+		<form id="formulario" class="formulario">
+			<input type="text" id="link" placeholder="Escribe el texto o URL" />
+			<button type="submit" class="btn">Generar QR</button>
+		</form>
+		<div id="contenedorQR" class="contenedorQR"></div>
+		<div class="botonDescarga">
+			<a id="descargar" download="codigo-qr.png">
+				<button class="btn" style="width: auto;">Descargar QR</button>
+			</a>
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+

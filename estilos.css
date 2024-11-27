@@ -1,0 +1,131 @@
+/* Reinicio básico */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Estilo general del cuerpo */
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: linear-gradient(135deg, #4e54c8, #8f94fb);
+	color: #fff;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Contenedor principal */
+.contenedor {
+	max-width: 90%;
+	width: 400px;
+	margin: 20px;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 15px;
+	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	backdrop-filter: blur(8px);
+	text-align: center;
+}
+
+/* Título */
+h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 24px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+/* Estilo del formulario */
+.formulario input[type='text'] {
+	padding: 15px 20px;
+	border: none;
+	background: #fff;
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	font-size: 18px;
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+	transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+/* Efectos al enfocar el input */
+.formulario input[type='text']:focus {
+	outline: none;
+	border: 2px solid #4e54c8;
+	box-shadow: 0 8px 16px rgba(78, 84, 200, 0.4);
+	transform: scale(1.02);
+}
+
+/* Botón estilizado */
+.formulario .btn {
+	width: 100%;
+	border: none;
+	background: linear-gradient(90deg, #6a11cb, #2575fc);
+	color: #fff;
+	cursor: pointer;
+	padding: 15px;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 10px;
+	font-family: 'Poppins', sans-serif;
+	transition: all 0.3s ease;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+}
+
+/* Efectos del botón al pasar el ratón */
+.formulario .btn:hover {
+	background: linear-gradient(90deg, #2575fc, #6a11cb);
+	box-shadow: 0 8px 16px rgba(37, 117, 252, 0.4);
+	transform: scale(1.03);
+}
+
+/* Efecto al hacer clic en el botón */
+.formulario .btn:active {
+	transform: scale(0.98);
+	box-shadow: 0 4px 8px rgba(37, 117, 252, 0.2);
+}
+
+/* Contenedor del QR */
+.contenedorQR {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+	background: #fff;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	margin-top: 20px;
+}
+
+/* Botón de descarga */
+.botonDescarga a {
+	text-decoration: none;
+}
+
+.botonDescarga .btn {
+	width: auto;
+	padding: 10px 20px;
+	font-size: 16px;
+	background: linear-gradient(90deg, #532eaa, #6f4dad);
+	margin-top: 10px;
+}
+
+.botonDescarga .btn:hover {
+	background: linear-gradient(90deg, #502999, #6c5aaa);
+	transform: scale(1.05);
+	box-shadow: 0 8px 16px rgba(81, 15, 157, 0.4);
+}
+
+/* Transiciones suaves */
+button, input {
+	transition: all 0.3s ease;
+}
+
+
+
+
+
